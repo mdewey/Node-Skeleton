@@ -7,6 +7,6 @@ Includes:
 
 - Node.js
 - Express
-- Material Design
+- Material Design (http://dogfalo.github.io/materialize/index.html)
 - Angular.js
-
+- sass
