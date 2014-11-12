@@ -1,0 +1,85 @@
+<html>
+
+<head>
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	
+	<style>
+		body {
+			background-color: #EEE;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- Your site -->
+
+	<nav>
+		<div class="nav-wrapper">
+			<a href="#" class="brand-logo">Logo</a>
+			<ul class="right side-nav"  id="nav-mobile">
+				<li><a href="#">link 1</a></li>
+				<li><a href="#">link 2</a></li>
+				<li><a href="#">link 3</a></li>
+			</ul>
+			<a class="button-collapse" href="#" data-activates='nav-mobile'><i class="mdi-navigation-menu"></i></a>
+		</div>
+	</nav>
+
+	<h1><%= Title%></h1>
+
+	<section ng-app="homeApp" ng-cloak>
+		<div ng-contoller="homeController">
+
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="card cyan">
+						<div class="card-content">
+							<h1>Card Title</h1>
+							<p>This is sample content</p>
+						</div>	
+						<div class="card-footer">
+							<p>Footer</p>
+							<p>Sample content</p>
+							<p>Sample content</p>
+							<a class='card-action' href='#'>This is a link</a>
+							<a class="waves-effect waves-light btn card-action" href="#">Wave</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col s12 m6">
+					<div class="card">
+						<div class="card-content">
+							<h1>Card Title</h1>
+							<p>This is sample content</p>
+						</div>  
+						<div class="card-footer">
+							<p>Footer</p>
+							<p>Sample content</p>
+							<p>Sample content</p>
+							<a class='card-action' href='#'>This is a link</a>
+							<a class='card-action' href='#'>This is a link</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	
+	<!-- Your site ends -->
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript">
+		$('.button-collapse').sideNav();
+	</script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+	<script type="text/javascript" src="js/app/homeApp.js"></script>
+
+
+</body>
+
+</html>

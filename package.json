@@ -1,0 +1,22 @@
+{
+  "name": "Node-Skeleton",
+  "version": "0.0.0",
+  "description": "Node-Skeleton\r =============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdewey/Node-Skeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdewey/Node-Skeleton/issues"
+  },
+  "homepage": "https://github.com/mdewey/Node-Skeleton",
+  "dependencies": {
+    "express": "^4.10.2"
+  }
+}
